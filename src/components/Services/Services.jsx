@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { products } from "../../Mock/Products";
-
+import envio from "../../icons/envio.svg";
 export const Services = () => {
   const [todo, setTodo] = useState(true);
   const [carne, setCarne] = useState(false);
@@ -17,8 +17,8 @@ export const Services = () => {
       setViewProduct(
         products.filter((productFilter) => productFilter.categorie === select)
       );
-    }else{
-        setViewProduct(products);
+    } else {
+      setViewProduct(products);
     }
   };
   const changeOption = (select) => {
@@ -58,14 +58,18 @@ export const Services = () => {
             <h2 className="h2 text-center col-12 py-5 semi-bold-600">
               Envíos a Domicilio
             </h2>
-            <div className="service-header col-2 col-lg-3 text-end light-300">
-              <img className="icon_envios" src="icons/envio.svg" alt="Envios" />
-            </div>
-            <div className="service-heading col-10 col-lg-9 text-start float-end light-300">
-              <h2 className="h3 pb-4 typo-space-line">
-                Te llevamos tu burger a casa
-              </h2>
-            </div>
+          </div>
+          <div className="row">
+            
+              <div className="service-header col-12 col-md-4 col-lg-3 text-center  light-300">
+                <img className="icon_envios" src={envio} alt="Envios" />
+              </div>
+              <div className="service-heading col-12 col-md-8 col-lg-9 text-start float-end light-300">
+                <h2 className="h3 pb-4 typo-space-line">
+                  Te llevamos tu burger a casa
+                </h2>
+              </div>
+            
           </div>
           <p className="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb--3 text-muted px-2">
             Tú, la manta, una peli y el sofá, tenes una cita con la hamburguesa
