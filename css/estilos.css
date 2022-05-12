@@ -33,7 +33,7 @@ p, a {font-weight: 400;}
 #main_nav .nav-item .nav-link:hover {color: #fff;}
 /* Home */
 #index_banner {
-  background-image: url('./../img/carrousel.jpeg');
+  background-image: url('/src/img/carrousel.jpeg');
   background-position: center center; background-size: cover;
   height: 100%;
   min-height: 60vh;
@@ -183,6 +183,9 @@ footer a.text-light:hover {
 }
 .service-tag,.ubication,.first_footer{
   background-color: #e2981c;
+}
+.service-tag span{
+  cursor: pointer;
 }
 .second_footer{
   background-color: #ffb12e;
