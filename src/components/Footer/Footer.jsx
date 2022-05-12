@@ -50,7 +50,7 @@ export const Footer = () => {
               <h2 className="h4 pb-lg-3 text-light light-300">Menu</h2>
               <ul className="list-unstyled text-light light-300">
                 <li className="pb-2">
-                  <i class="fa fa-arrow-right"></i>
+                  <i className="fa fa-arrow-right"></i>
                   <a
                     className="text-decoration-none text-light py-1"
                     href="#Home"
@@ -59,25 +59,25 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="pb-2">
-                  <i class="fa fa-arrow-right"></i>
+                  <i className="fa fa-arrow-right"></i>
                   <a className="text-decoration-none text-light py-1" href="#">
                   {" "}Sobre Nosotros
                   </a>
                 </li>
                 <li className="pb-2">
-                  <i class="fa fa-arrow-right"></i>
+                  <i className="fa fa-arrow-right"></i>
                   <a className="text-decoration-none text-light py-1" href="#">
                   {" "}Restaurantes
                   </a>
                 </li>
                 <li className="pb-2">
-                  <i class="fa fa-arrow-right"></i>
+                  <i className="fa fa-arrow-right"></i>
                   <a className="text-decoration-none text-light py-1" href="#">
                   {" "}Carta
                   </a>
                 </li>
                 <li className="pb-2">
-                  <i class="fa fa-arrow-right"></i>
+                  <i className="fa fa-arrow-right"></i>
                   <a className="text-decoration-none text-light py-1" href="#">
                   {" "}Contáctanos
                   </a>

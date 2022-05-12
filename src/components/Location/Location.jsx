@@ -45,8 +45,6 @@ export const Location = () => {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016713276845!2d-58.38375908560909!3d-34.60373888045951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1622420109523!5m2!1ses!2sar"
                   width="600"
                   height="280"
-                //   style="border:0;"
-                  allowfullscreen=""
                   loading="lazy"
                 ></iframe>
                 <h3 className="card-title light-300">
@@ -66,8 +64,6 @@ export const Location = () => {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.8127704712717!2d-58.26015937081978!3d-34.724064996516105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e6a58691515%3A0x6e238073310b398d!2sAv.%20Hip%C3%B3lito%20Yrigoyen%20646%2C%20B1878%20FNN%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1622420544563!5m2!1ses!2sar"
                   width="600"
                   height="280"
-                //   style="border:0;"
-                  allowfullscreen=""
                   loading="lazy"
                 ></iframe>
                 <h3 className="card-title light-300">Zona sur, Buenos Aires</h3>
@@ -85,8 +81,6 @@ export const Location = () => {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1627224094896!2d-58.418487585194505!3d-34.625327966147935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbdd9ded8891%3A0xe3fc1307e41d3df0!2sSan%20juan%20y%20boedo!5e0!3m2!1ses!2sar!4v1622420609156!5m2!1ses!2sar"
                   width="600"
                   height="280"
-                //   style="border:0;"
-                  allowfullscreen=""
                   loading="lazy"
                 ></iframe>
                 <h3 className="card-title light-300">CABA</h3>
