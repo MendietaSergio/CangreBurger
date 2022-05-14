@@ -4,7 +4,7 @@ import { Header } from './components/Header/Header'
 import { Services } from './components/Services/Services'
 import { Location } from './components/Location/Location'
 import { Footer } from './components/Footer/Footer'
-
+import '../css/estilos.css'
 function App() {
 
   return (
