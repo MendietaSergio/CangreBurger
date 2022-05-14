@@ -136,7 +136,7 @@ export const Services = () => {
               >
                 <img
                   className="card-img"
-                  src="../../img/carrousel.jpeg"
+                  src={product.img}
                   alt="Card image"
                 />
                 <div className="service-work-vertical card-img-overlay d-flex align-items-end">
